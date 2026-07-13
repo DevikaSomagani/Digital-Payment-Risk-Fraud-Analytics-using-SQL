@@ -1,0 +1,192 @@
+# 📊 Exploratory Data Analysis (EDA)
+
+## Overview
+
+Exploratory Data Analysis (EDA) was performed to understand the structure of the digital payment dataset, identify transaction patterns, analyze customer behavior, and uncover fraud trends before conducting advanced analytics.
+
+Using **Microsoft SQL Server**, more than **20,000 digital payment transactions** were analyzed to generate business insights and support fraud detection.
+
+---
+
+## 🎯 Objectives
+
+The exploratory analysis aimed to:
+
+* Understand customer spending behavior
+* Analyze transaction patterns
+* Measure platform activity and usage
+* Identify high-value customers
+* Explore fraud trends
+* Compare payment applications and devices
+* Evaluate customer risk indicators
+* Generate business insights for decision-making
+
+---
+
+## 📂 Dataset Used
+
+| Table        | Records |
+| ------------ | ------: |
+| Users        |   2,000 |
+| Merchants    |     400 |
+| Transactions |  20,000 |
+
+---
+
+## 🛠️ SQL Concepts Used
+
+The following SQL features were used throughout the analysis:
+
+* SELECT
+* WHERE
+* GROUP BY
+* ORDER BY
+* Aggregate Functions (`COUNT`, `SUM`, `AVG`, `MIN`, `MAX`)
+* CASE Expressions
+* INNER JOIN
+* Common Table Expressions (CTEs)
+* Window Functions
+* `RANK()` and `DENSE_RANK()`
+* Subqueries
+* Date Functions
+* Conditional Aggregation
+
+---
+
+# 📈 Analysis Modules
+
+## 1. Platform Overview
+
+Analyzed the overall size and activity of the digital payment platform.
+
+### Key Metrics
+
+* Total users
+* Total merchants
+* Total transactions
+* Total transaction volume
+* Average transaction value
+
+**Business Value:** Provided a high-level understanding of platform scale and transaction activity.
+
+---
+
+## 2. Transaction Analysis
+
+Analyzed transaction behavior across multiple dimensions.
+
+### Analysis Included
+
+* Payment application usage
+* Transaction type distribution
+* Device usage
+* Receiver type analysis
+* Transaction status
+* Hourly transaction trends
+* Weekday vs. weekend activity
+
+**Business Value:** Identified customer payment preferences and peak transaction periods.
+
+---
+
+## 3. Customer Analytics
+
+Examined customer behavior and value.
+
+### Analysis Included
+
+* High-value customers
+* Customer spending patterns
+* Customer segmentation
+* Loyalty score analysis
+* High-risk user analysis
+* City-wise customer distribution
+* Age-group analysis
+* KYC status comparison
+* Customer lifetime value
+* Repeat customer analysis
+
+**Business Value:** Supported customer segmentation, retention strategies, and identification of valuable customers.
+
+---
+
+## 4. Merchant Analytics
+
+Evaluated merchant performance and transaction activity.
+
+### Analysis Included
+
+* Merchant category distribution
+* Merchant transaction volume
+* Merchant revenue contribution
+* Merchant fraud analysis
+* Merchant rankings
+
+**Business Value:** Helped identify high-performing merchants and categories requiring additional fraud monitoring.
+
+---
+
+## 5. Fraud Analytics
+
+Investigated fraud patterns using transaction-level indicators.
+
+### Analysis Included
+
+* Fraud by hour
+* Fraud by weekday
+* Fraud by payment application
+* Fraud by device type
+* Fraud by transaction type
+* New device fraud analysis
+* IP location mismatch analysis
+* Failed authentication analysis
+* Transaction velocity analysis
+* High-value transaction fraud
+* Merchant fraud ranking
+* City-wise fraud analysis
+* Customer fraud ranking
+* Fraud amount distribution
+
+**Business Value:** Identified high-risk transactions, customers, devices, locations, and merchant categories.
+
+---
+
+## 6. Business Insights
+
+Converted analytical findings into actionable recommendations.
+
+### Business Questions Answered
+
+* Which payment applications have the highest fraud rates?
+* Which merchant categories require stronger monitoring?
+* Which cities experience the most fraud?
+* Does KYC verification reduce fraud?
+* Which devices are associated with higher fraud?
+* Do new devices increase fraud risk?
+* Which transaction types require additional monitoring?
+* During which hours does fraud occur most frequently?
+* Which customers should be prioritized for risk monitoring?
+
+**Business Value:** Enabled data-driven recommendations to improve fraud prevention and operational decision-making.
+
+---
+
+# 📌 Key Outcomes
+
+The exploratory analysis provided valuable insights into:
+
+* Customer behavior
+* Transaction trends
+* Platform performance
+* Merchant activity
+* Fraud patterns
+* Business KPIs
+* Risk indicators
+
+These findings formed the foundation for advanced SQL analysis, business reporting, and fraud detection.
+
+---
+
+# ✅ Conclusion
+
+The Exploratory Data Analysis transformed raw transactional data into meaningful business insights using SQL. By analyzing customer activity, transaction behavior, merchant performance, and fraud indicators, the project demonstrates how SQL can be applied to solve real-world business problems and support data-driven decision-making in digital payment platforms.
