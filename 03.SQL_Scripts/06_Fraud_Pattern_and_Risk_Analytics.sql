@@ -273,9 +273,9 @@ ORDER BY Fraud_Rank;
 
 /*14. Fraud Amount Distribution
 Buckets:
-0–1000
-1000–5000
-5000–10000
+0â€“1000
+1000â€“5000
+5000â€“10000
 10000+*/
 WITH fraud_buckets AS (
     SELECT
