@@ -49,14 +49,12 @@ The primary objectives of this project are:
   Users                    2,000
   Merchants                  400
   Transactions            20,000
-  Fraud Transactions         763
 
 The project uses four CSV files:
 
 -   users.csv
 -   merchants.csv
 -   transactions.csv
--   fraud_labels.csv
 
 ------------------------------------------------------------------------
 
